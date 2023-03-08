@@ -115,10 +115,15 @@ a{
     width: 450px;
 }
 
+.tablet-images{
+    height: 500px;
+    width: 450px;
+}
+
 /* Section Edits */
 #phone-section{
     border-bottom: 8px solid #757575;
-    background: rgb(90, 103, 114);
+    background: rgb(90, 103, 114);  
 }
 
 #tablets-section{
@@ -139,4 +144,38 @@ a{
 #watch-section{
     border-bottom: 8px solid #757575;
     background: rgb(90, 103, 114);
+}
+
+/* Different selections */
+.phone-selections{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-row-gap: 10px;
+}
+
+
+.phones{
+    background: white;
+    color: black;
+    font-size: medium;
+    border: 1px solid black;
+    padding: 17px;
+    margin-left:5px ;
+    margin-right: 5px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    color: black;
+    font-size: medium ;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
 }
