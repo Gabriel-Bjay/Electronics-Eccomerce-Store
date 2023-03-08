@@ -73,7 +73,7 @@ a{
     text-align: center;
 }
 
-.tablets{
+.tablet{
     border: 1px solid rgb(24, 21, 21);
     background: rgba(82, 146, 146, 0.664);
     height: 650px;
@@ -82,7 +82,7 @@ a{
     text-align: center;
 }
 
-.laptops{
+.laptop{
     border: 1px solid rgb(24, 21, 21);
     background: rgba(82, 146, 146, 0.664);
     height: 650px;
@@ -122,27 +122,27 @@ a{
 
 /* Section Edits */
 #phone-section{
-    border-bottom: 8px solid #757575;
+    border-bottom: 30px solid black;
     background: rgb(90, 103, 114);  
 }
 
 #tablets-section{
-    border-bottom: 8px solid #757575;
+    border-bottom: 30px solid black;
     background: rgb(90, 103, 114);
 }
 
 #laptop-section{
-    border-bottom: 8px solid #757575;
+    border-bottom: 30px solid black;
     background: rgb(90, 103, 114);
 }
 
 #tv-section{
-    border-bottom: 8px solid #757575;
+    border-bottom: 30px solid black;
     background: rgb(90, 103, 114);
 }
 
 #watch-section{
-    border-bottom: 8px solid #757575;
+    border-bottom: 30px solid black;
     background: rgb(90, 103, 114);
 }
 
@@ -155,8 +155,27 @@ a{
     grid-row-gap: 10px;
 }
 
+.tablet-selections{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-row-gap: 5px;
+}
+
 
 .phones{
+    background: white;
+    color: black;
+    font-size: medium;
+    border: 1px solid black;
+    padding: 17px;
+    margin-left:5px ;
+    margin-right: 5px;
+    width: 500px;
+}
+
+.tablets{
     background: white;
     color: black;
     font-size: medium;
