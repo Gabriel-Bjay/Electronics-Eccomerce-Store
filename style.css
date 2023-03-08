@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600&family=Roboto&display=swap');
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styles */
+.banner-wrap{
+    border-bottom: 8px solid #757575;
+    background: black;
+    color: white;
+    height: 150px;
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 70px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.home-gif img{
+    height: 70px;
+}
+
+.order-button >button {
+    color: black;
+    background-color: aquamarine;
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+    border-radius: 10px;
+}
+
+.order-button >button:hover{
+    cursor: pointer;
+    background: #757575;
+    color: white;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;
+    color: darkblue;
+}
+
+
+/* Top-page styles */
+#top-page{
+    border-bottom: 8px solid #757575;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+    row-gap: 20px;
+    padding: 10px 35px;
+    background: aliceblue;
+}
+
+
+/* Card Styles */
+.phone{
+    border: 1px solid rgb(24, 21, 21);
+    background: rgba(82, 146, 146, 0.664);
+    height: 650px;
+    width: 550px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.tablets{
+    border: 1px solid rgb(24, 21, 21);
+    background: rgba(82, 146, 146, 0.664);
+    height: 650px;
+    width: 550px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.laptops{
+    border: 1px solid rgb(24, 21, 21);
+    background: rgba(82, 146, 146, 0.664);
+    height: 650px;
+    width: 550px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.tvs{
+    border: 1px solid rgb(24, 21, 21);
+    background: rgba(82, 146, 146, 0.664);
+    height: 650px;
+    width: 550px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.watches{
+    border: 1px solid rgb(24, 21, 21);
+    background: rgba(82, 146, 146, 0.664);
+    height: 650px;
+    width: 550px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+/*  Images Edits */
+.phone-images{
+    height: 500px;
+    width: 450px;
+}
+
+/* Section Edits */
+#phone-section{
+    border-bottom: 8px solid #757575;
+    background: rgb(90, 103, 114);
+}
+
+#tablets-section{
+    border-bottom: 8px solid #757575;
+    background: rgb(90, 103, 114);
+}
+
+#laptop-section{
+    border-bottom: 8px solid #757575;
+    background: rgb(90, 103, 114);
+}
+
+#tv-section{
+    border-bottom: 8px solid #757575;
+    background: rgb(90, 103, 114);
+}
+
+#watch-section{
+    border-bottom: 8px solid #757575;
+    background: rgb(90, 103, 114);
+}
