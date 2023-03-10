@@ -9,7 +9,7 @@
 /* Navigation Bar Styles */
 .banner-wrap{
     border-bottom: 8px solid #757575;
-    background: white;
+    background: burlywood;
     color: black;
     height: 150px;
     /* position: fixed; */
@@ -25,9 +25,13 @@
     height: 70px;
 }
 
+.shopping-tags{
+    padding: 5px;
+}
+
 .company-logo{
     height: 100px;
-    width: 150px;
+    
     
 }
 
