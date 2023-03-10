@@ -129,28 +129,33 @@ a{
 
 /* Section Edits */
 #phone-section{
-    border-bottom: 30px solid black;
+    border-bottom: 10px solid black;
     background: rgb(90, 103, 114);  
+    padding-bottom: 20px;
 }
 
 #tablets-section{
-    border-bottom: 30px solid black;
+    border-bottom: 10px solid black;
     background: rgb(90, 103, 114);
+    padding-bottom: 20px;
 }
 
 #laptop-section{
-    border-bottom: 30px solid black;
+    border-bottom: 10px solid black;
     background: rgb(90, 103, 114);
+    padding-bottom: 20px;
 }
 
 #tv-section{
-    border-bottom: 30px solid black;
+    border-bottom: 10px solid black;
     background: rgb(90, 103, 114);
+    padding-bottom: 20px;
 }
 
 #watch-section{
-    border-bottom: 30px solid black;
+    border-bottom: 10px solid black;
     background: rgb(90, 103, 114);
+    padding-bottom: 20px;
 }
 
 /* Different selections */
@@ -271,4 +276,28 @@ button:hover{
     background-color: red;
     color: black;
     font-size: large;
+}
+
+/* Footer Section Edits */
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+    flex-wrap: wrap;
+    background: #202733;
+    color: blanchedalmond;
+    font-weight: 500;
+}
+
+.footer-heads{
+    text-decoration: underline;
+}
+
+.text-image{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
 }
