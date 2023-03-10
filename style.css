@@ -9,8 +9,8 @@
 /* Navigation Bar Styles */
 .banner-wrap{
     border-bottom: 8px solid #757575;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     height: 150px;
     /* position: fixed; */
     display: flex;
@@ -23,6 +23,12 @@
 
 .home-gif img{
     height: 70px;
+}
+
+.company-logo{
+    height: 100px;
+    width: 150px;
+    
 }
 
 .order-button >button {
@@ -48,9 +54,21 @@ a{
     color: darkblue;
 }
 
+.search-bar >input {
+    width: 500px;
+    height: 40px;
+    padding: 20px;
+    font-size: large;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
 
 /* Top-page styles */
 #top-page{
+    background-image: url("General\ assets/pexels-andre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     border-bottom: 8px solid #757575;
     display: flex;
     flex-direction: row;
@@ -59,54 +77,27 @@ a{
     height: 700px;
     row-gap: 20px;
     padding: 10px 35px;
-    background: aliceblue;
 }
 
 
 /* Card Styles */
-.phone{
-    border: 1px solid rgb(24, 21, 21);
-    background: rgba(82, 146, 146, 0.664);
-    height: 650px;
+.card{
+    border: 2px solid rgb(24, 21, 21);
+    background: white;
+    height: 500px;
     width: 550px;
     margin-right: 15px;
     text-align: center;
+    border-radius: 20px;
 }
 
-.tablet{
-    border: 1px solid rgb(24, 21, 21);
-    background: rgba(82, 146, 146, 0.664);
-    height: 650px;
-    width: 550px;
-    margin-right: 15px;
-    text-align: center;
-}
 
-.laptop{
-    border: 1px solid rgb(24, 21, 21);
-    background: rgba(82, 146, 146, 0.664);
-    height: 650px;
-    width: 550px;
-    margin-right: 15px;
-    text-align: center;
-}
 
-.tvs{
-    border: 1px solid rgb(24, 21, 21);
-    background: rgba(82, 146, 146, 0.664);
-    height: 650px;
-    width: 550px;
-    margin-right: 15px;
+.section-title{
+    justify-content: center;
     text-align: center;
-}
-
-.watches{
-    border: 1px solid rgb(24, 21, 21);
-    background: rgba(82, 146, 146, 0.664);
-    height: 650px;
-    width: 550px;
-    margin-right: 15px;
-    text-align: center;
+    padding-top: 15px;
+    font-size: 400;
 }
 
 /*  Images Edits */
@@ -116,6 +107,11 @@ a{
 }
 
 .tablet-images{
+    height: 500px;
+    width: 450px;
+}
+
+.laptop-images{
     height: 500px;
     width: 450px;
 }
@@ -163,6 +159,14 @@ a{
     grid-row-gap: 5px;
 }
 
+.laptop-selections{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-row-gap: 5px;
+}
+
 
 .phones{
     background: white;
@@ -185,6 +189,17 @@ a{
     margin-right: 5px;
 }
 
+.laptops{
+    background: white;
+    color: black;
+    font-size: medium;
+    border: 1px solid black;
+    padding: 17px;
+    margin-left:5px ;
+    margin-right: 5px;
+    text-align: center;
+}
+
 button{
     width: 200px;
     height: 50px;
@@ -197,4 +212,7 @@ button{
 
 button:hover{
     cursor: pointer;
+    background-color: red;
+    color: black;
+    font-size: large;
 }
