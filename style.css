@@ -9,7 +9,7 @@
 /* Navigation Bar Styles */
 .banner-wrap{
     border-bottom: 8px solid #757575;
-    background: burlywood;
+    background: white;
     color: black;
     height: 150px;
     /* position: fixed; */
@@ -37,7 +37,7 @@
 
 .order-button >button {
     color: black;
-    background-color: aquamarine;
+    background-color: rgba(229, 153, 13, 0.575);
     width: 200px;
     height: 50px;
     font-size: medium;
@@ -70,17 +70,29 @@ a{
 
 /* Top-page styles */
 #top-page{
-    background-image: url("General\ assets/pexels-andre.jpg");
+    /* background-image: url("General\ assets/pexels-andre.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom: 8px solid #757575;
+    background-size: cover; */
+    background-color: beige;
+    border-bottom: 1px solid #757575;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 700px;
+    height: 350px;
     row-gap: 20px;
     padding: 10px 35px;
+}
+
+#brands{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+    border-bottom: 1px solid #757575;
+    background-color: beige;
+    padding: 10px;
 }
 
 
@@ -88,7 +100,7 @@ a{
 .card{
     border: 2px solid rgb(24, 21, 21);
     background: white;
-    height: 500px;
+    height: 300px;
     width: 550px;
     margin-right: 15px;
     text-align: center;
